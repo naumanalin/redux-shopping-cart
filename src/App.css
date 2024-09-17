@@ -173,8 +173,10 @@ nav {
     color: white;
     padding: 10px 15px;
     border: none;
-    margin: 0 10px;
+    margin: 5px 10px;
     border-radius: 5px;
+
+
 }
 
 .filter-btn:hover {
@@ -234,4 +236,9 @@ nav {
 
 .total-price-section h3 {
     color: #28a745;
+}
+
+.quantity-control-sec button,
+.quantity-control-sec span {
+    margin: 3px;
 }

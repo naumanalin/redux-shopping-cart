@@ -1,8 +1,23 @@
-# React + Vite
+# React + Redux + ReduxThunk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Vercel Deply Link
+https://redux-shopping-cart-ebon.vercel.app/
 
-Currently, two official plugins are available:
+# Main Features
+1. Product Filtering by Category:
+Users can filter products based on categories like "Men's Clothing," "Women's Clothing," "Jewelry," and "Electronics" using buttons that dynamically update the product list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Cart Management with Redux:
+The cart feature is integrated with Redux, allowing users to add and remove products from the cart, as well as adjust product quantities.
+
+3. Quantity Control with Plus/Minus Buttons:
+Users can increment or decrement the quantity of products directly within the cart using intuitive plus and minus buttons, providing a smooth user experience.
+
+4. Responsive Design:
+The interface is fully responsive, ensuring an optimal experience across different devices, including desktops, tablets, and mobile phones.
+
+5. Dynamic Product Rendering:
+Products are fetched from an API and dynamically rendered on the page using Redux, ensuring that any changes in filtering or cart management are reflected in real time.
+
+
+# createAsynThunk for Fetch API

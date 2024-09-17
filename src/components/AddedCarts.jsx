@@ -45,7 +45,7 @@ const AddedCarts = () => {
                                             <img src={item.image} alt={item.title} />
                                         </td>
                                         <td>{item.title}</td>
-                                        <td>
+                                        <td className="quantity-control-sec">
                                             <button onClick={() => handleRemoveByOne(item.id)}>-</button>
                                             <span>{item.quantity}</span>
                                             <button onClick={() => handleAddOneMore(item.id)}>+</button>
